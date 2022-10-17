@@ -106,3 +106,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+#VScode stuff
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store

@@ -1,7 +1,12 @@
 [
   {
-    "title": "Individual Coaching",
-    "icon": "icon1.svg",
-    "content": "Book your next individual coaching hour."
+    "title": "Inclusive Leadership",
+    "icon": "noun-networking-2909312-A5F3FC.svg",
+    "content": "Growing and becoming an inclusive leader."
+  },
+  {
+    "title": "Data Leadership",
+    "icon": "noun-leadership-2909348-A5F3FC.svg",
+    "content": "Leading and growing impactful data teams."
   }
 ]
