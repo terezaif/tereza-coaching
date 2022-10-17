@@ -52,3 +52,9 @@ Best have a look at `./layouts/base.njk` first to understand how it all comes to
 **Change images:**
 
 Images are stored in `./static/img/`; everything in there can be considered a placeholder that should eventually be replaced with your actual production images.
+
+**Improving site response time**
+
+- Converting images to webp format with [https://convertio.co/](https://convertio.co/)
+- Checking site response time with [https://pagespeed.web.dev/](https://pagespeed.web.dev/)
+- Check if site is green hosted and report [https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3](https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3)
