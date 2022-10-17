@@ -1,17 +1,17 @@
 {
   "baseURL": "https://awesome11ty.ttntm.me",
-  "author": "AWE.SOME",
-  "description": "AWE.SOMEty - A Landing Page Template for 11ty",
-  "title": "AWE.SOMEty - A Landing Page Template for 11ty",
+  "author": "Tereza Iofciu",
+  "description": "Inclusive leadership coaching and data career coaching",
+  "title": "Tereza Coaching",
   "language": "en",
   "social": [
     {
       "title": "Twitter",
-      "url": "https://twitter.com/#"
+      "url": "https://twitter.com/@terezaif"
     },
     {
       "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "url": "https://linkedin.com/company/tereza-iofciu"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
-title: Most AWE.SOME Features
-afterTitle: ...and so much more!
+title: Tereza Coaching
+#afterTitle: ...and so much more!
 type: features
 ---
 
-Pellentesque ullamcorper fringilla odio at pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla mattis erat dui, ut tempor lectus dictum id.
+Is leadership nature or nurture? I believe we can all grow and become better leaders. One does not need to be in a leadership role in order to lead. Our careers are more successful when we are inclusive leaders. 

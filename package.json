@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A simple landing page built with 11ty and Tailwind CSS",
   "scripts": {
+    "clean": "del public",
     "serve": "eleventy --serve",
     "deploy": "eleventy"
   },
@@ -17,5 +18,8 @@
     "postcss": "^8.2.9",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.4"
+  },
+  "dependencies": {
+    "del-cli": "^5.0.0"
   }
 }

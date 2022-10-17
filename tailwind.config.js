@@ -6,7 +6,8 @@ module.exports = {
     './src/**/*.html',
     './src/**/*.njk',
     './src/**/*.md',
-    './src/**/*.11ty.js'
+    './src/**/*.11ty.js',
+    './src/_includes/*.njk',
   ],
   presets: [],
   darkMode: false, // or 'media' or 'class'
@@ -26,8 +27,9 @@ module.exports = {
       white: colors.white,
       gray: colors.coolGray,
       red: colors.red,
-      yellow: colors.amber,
+      amber: colors.amber,
       green: colors.emerald,
+      teal: colors.teal,
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
