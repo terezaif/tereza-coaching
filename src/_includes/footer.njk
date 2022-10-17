@@ -38,20 +38,20 @@
 </div>
 <div class="">
   <a id="btt"
-    class="hidden fixed bottom-0 right-0 mb-4 mr-4 text-gray-200 border border-amber-600 hover:bg-gray-200 hover:text-amber-600 hover:border-browngray no-underline px-6 py-1 bg-amber-600 shadow-md"
+    class="hidden rounded-full fixed bottom-0 right-0 mb-4 mr-4 text-gray-200 border border-amber-600 hover:bg-gray-200 hover:text-amber-600 hover:border-browngray no-underline px-6 py-1 bg-amber-600 shadow-md"
     href="#top" title="Back to Top">UP</a>
 </div>
 <div class="fixed bottom-0 left-0 m-6">
-  <a href="https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3" target="_blank" rel="noopener" title="This page emits an estimated 0.067g"
-    class="block rounded-full bg-black text-purple-600 hover:bg-white hover:text-black shadow-md p-4">
-    <img src="/img/noun-co2-3810679-134E4A.svg" width="50" height="50" class="block" alt="Carbon footprint icon">
+  <a href="https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3" target="_blank" rel="noopener" title="This page emits an estimated 0.067g CO2 every time someone views it."
+    class="block rounded-full bg-white text-purple-600 hover:bg-gray-200 hover:text-black shadow-md p-4">
+    <img src="/img/noun-co2-3810679-134E4A.svg" width="30" height="30" class="block" alt="Carbon footprint icon">
   </a> 
 </div>
 <!-- "Follow" Tooltip template -->
 <template id="followTip">
   {% for item in site.social %}
     <a href="{{ item.url }}"
-      class="inline-block text-gray-200 text-sm bg-amber-600 shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1"
+      class="inline-block rounded-fulltext-gray-200 text-sm bg-amber-600 shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1"
       target="_blank" rel="noopener">{{ item.title }}</a>
   {% endfor %}
 </template>
