@@ -36,8 +36,8 @@ module.exports = function (eleventyConfig) {
   // STATIC FILES
   eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
 
-  // Copy `img/favicon/` to `_site/`
-  eleventyConfig.addPassthroughCopy({ "img/favicon" : "/" });
+  // Copy `/favicon/` to `public/`
+  eleventyConfig.addPassthroughCopy({ "./src/favicon" : "/" });
 
   // TRANSFORM -- Minify HTML Output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
