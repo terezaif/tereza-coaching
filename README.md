@@ -47,7 +47,7 @@ Page structure and templates are stored in `./src/_layouts/` and can be edited t
 
 Best have a look at `./layouts/base.njk` first to understand how it all comes together - the page itself is constructed from partial templates stored in `./src/includes/` and each section has a corresponding template file (`section.**.njk`) stored there.
 
-`index.njk` in `./src/` arranges everything, meaning that sections can be added/re-ordered/removed/... there.
+`index.njk` in `./src/` arranges everything, meaning that sections can be added/re-ordered/remzoved/... there.
 
 **Change images:**
 
@@ -58,3 +58,4 @@ Images are stored in `./static/img/`; everything in there can be considered a pl
 - Converting images to webp format with [https://convertio.co/](https://convertio.co/)
 - Checking site response time with [https://pagespeed.web.dev/](https://pagespeed.web.dev/)
 - Check if site is green hosted and report [https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3](https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3)
+- All about favicons [https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)

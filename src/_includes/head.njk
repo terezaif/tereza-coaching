@@ -14,13 +14,17 @@
 <meta property="og:title" content="{{ title or site.title }}">
 <meta property="og:description" content="{{ description  or site.description }}">
 <meta property="og:url" content="{{ absolutePageUrl }}">
-<meta name="twitter:card" content="{% if image -%}summary_large_image{% else %}summary{% endif %}">
-{%- if image -%}
-  <meta property="og:image" content="{{ image | url | absoluteUrl(site.url) }}">
+<meta name="twitter:card" content="{% if site.image -%}summary_large_image{% else %}summary{% endif %}">
+{%- if site.image -%}
+  <meta property="og:image" content="{{ site.image | url | absoluteUrl(site.url) }}">
 {%- endif -%}
 <!-- ./END SOCIAL META DATA -->
 <meta name="theme-color" content="#ffffff">
 <title>{{ title or site.title }} | {{ site.author }}</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/css/page.css">
 {% if not isFront %}
   <!-- include Normalize for regular text pages -->
