@@ -1,8 +1,17 @@
-# 11ty-landing-page
+# T's Landing page
 
 A simple landing page built with 11ty and Tailwind CSS.
 
 > Port of the [Hugo Version](https://github.com/ttntm/hugo-landing-page)
+> [Template](https://github.com/ttntm/11ty-landing-page)
+
+## Improving site response time
+
+- Converting images to webp format with [https://convertio.co/](https://convertio.co/)
+- Checking site response time with [https://pagespeed.web.dev/](https://pagespeed.web.dev/)
+- Check if site is green hosted and report [https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3](https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3)
+- All about favicons [https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+
 
 ## How to use this template
 
@@ -53,9 +62,3 @@ Best have a look at `./layouts/base.njk` first to understand how it all comes to
 
 Images are stored in `./static/img/`; everything in there can be considered a placeholder that should eventually be replaced with your actual production images.
 
-**Improving site response time**
-
-- Converting images to webp format with [https://convertio.co/](https://convertio.co/)
-- Checking site response time with [https://pagespeed.web.dev/](https://pagespeed.web.dev/)
-- Check if site is green hosted and report [https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3](https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3)
-- All about favicons [https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
