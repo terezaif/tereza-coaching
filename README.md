@@ -3,7 +3,8 @@
 A simple landing page built with 11ty and Tailwind CSS.
 
 > Port of the [Hugo Version](https://github.com/ttntm/hugo-landing-page)
-> [Template](https://github.com/ttntm/11ty-landing-page)
+
+[Template](https://github.com/ttntm/11ty-landing-page)
 
 ## Improving site response time
 
