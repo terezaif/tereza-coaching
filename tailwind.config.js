@@ -22,7 +22,6 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -30,6 +29,7 @@ module.exports = {
       amber: colors.amber,
       green: colors.emerald,
       teal: colors.teal,
+      sky: colors.sky,
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
