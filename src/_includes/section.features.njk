@@ -1,33 +1,34 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'features' %}
-    <div id="features" class="flex flex-col items-center justify-center w-full min-h-screen py-12 bg-teal-900">
-      <div class="self-center w-full px-4 sm:w-2/3 xl:w-1/2 sm:px:0">
-        <h2 class="mb-4 text-4xl font-bold tracking-wide text-center text-teal-200">{{ item.data.title }}</h2>
-        <div class="mb-6 text-xl font-light text-center text-gray-200">
+    <div id="features" class="px-6 py-24 pb-24  min-w-screen    min-h-screen w-full bg-eden-800 rounded-t-[200px]">
+      <div class="container  mx-auto   items-center justify-center justify-between">
+      <div class="self-center  px-4  sm:px:0">
+        <div class="m-6 mb-12 text-xl font-medium tracking-wide text-center text-white pb-12">{{ item.data.title }}</div>
+        <div class="mb-6 text-3xl font-bold text-center text-cornflowerlilac-300 pb-12">
           {{ item.templateContent | safe }}
         </div>
+        <div class="m-10 text-xl font-medium tracking-wide text-center text-white pb-12">{{ item.data.afterText }}</div>
       </div>
-      <div class="flex flex-col flex-wrap self-center w-full px-4 text-center xl:w-4/5 sm:flex-row xl:px:0">
+      <div class="grid grid-flow-row auto-rows-max sm:grid-cols-3  self-center text-center gap-8 pb-24">
         {% for item in features %}
-          <div class="flex flex-row flex-no-wrap w-full px-4 py-6 sm:w-1/2 sm:px-8 sm:py-12">
-            <div class="w-1/3 xl:w-1/4">
-              <img src="/img/features/{{ item.icon }}" alt="{{ item.title }}" class="block w-16 sm:mx-auto">
-            </div>
-            <div class="w-2/3 xl:w-3/4">
-              <h3 class="mb-2 text-2xl font-bold tracking-wide uppercase text-amber-300">{{ item.title }}</h3>
-              <div class="text-lg font-light text-gray-200">
+        
+          <div class="  bg-brightsun-600  rounded-[100px] ">
+      
+           
+              <div class="text-2xl font-bold text-black-800 py-16 px-10 self-center">
                 {{ item.content | markdown | safe }}
               </div>
-            </div>
+        
           </div>
         {% endfor %}
       </div>
-      <div class="self-center w-full px-4 text-center sm:w-1/3 sm:px:0">
-        <h3 class="my-6 text-2xl font-bold tracking-widest text-teal-200">{{ item.data.afterTitle }}</h3>
+      
+      <div class="grid justify-center pt-6">
+        <a class="m-20 px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-gray-900 hover:bg-white hover:text-gray-900" href="#solutions">
+Yes, this is me! Tell me more!
+</a>
       </div>
-      <div class="flex flex-row justify-center w-full pt-6">
-        <a class="px-10 py-2 text-lg text-gray-200 rounded-full shadow-md bg-amber-600 hover:bg-gray-800 hover:border-red" href="#ourfirstcall">Book your first call</a>
-      </div>
+    </div>
     </div>
   {% endif %}
 {% endfor %}

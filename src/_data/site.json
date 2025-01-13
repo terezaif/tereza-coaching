@@ -7,12 +7,16 @@
   "image":"https://www.terezaiofciu.com/img/twitter_card.webp",
   "social": [
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/@terezaif"
+      "title": "Bluesky",
+      "url": "https://bsky.app/profile/terezaif.bsky.social"
     },
     {
       "title": "LinkedIn",
       "url": "https://www.linkedin.com/in/tereza-iofciu/"
+    },
+    {
+      "title": "Substack",
+      "url": "https://terezaiofciu.substack.com/"
     }
   ]
 }

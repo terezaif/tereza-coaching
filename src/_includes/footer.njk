@@ -1,44 +1,32 @@
-<footer class="w-full flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 py-16">
-  <div class="text-center pr-0 sm:pr-8 py-4">
-    <ul class="list-none">
-      {% for item in site.social %}
-        <li>
-          <a class="text-gray-800 hover:text-amber-600 no-underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-amber-600 mx-auto sm:mx-0"></div>
-  <div class="text-center px-8 py-4">
-    <ul class="list-none">
-      <li>
-        <a class="text-gray-800 hover:text-amber-600 no-underline" href="{% if isFront %}#about{% else %}{{ site.baseURL }}/#about{% endif %}">About</a>
-      </li>
-      <li>
-        <a class="text-gray-800 hover:text-amber-600 no-underline" href="{% if isFront %}#features{% else %}{{ site.baseURL }}/#features{% endif %}">Coaching</a>
-      </li>
-    </ul>
-  </div>
-  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-amber-600 mx-auto sm:mx-0"></div>
-  <div class="text-center pl-0 sm:pl-8 py-4">
-    <ul class="list-none">
-      <li>
-        <a class="text-gray-800 hover:text-amber-600 no-underline" href="/privacy">Privacy</a>
-      </li>
-      <li>
-        <a class="text-gray-800 hover:text-amber-600 no-underline" href="/imprint">Imprint</a>
-      </li>
-    </ul>
-  </div>
-</footer>
-<div class="w-full">
+<footer class=" w-full mx-auto p-16 rounded-t-[200px] bg-outrageousorange-400">
+
+<div class="grid sm:grid-cols-3 justify-center tracking-wide  items-center justify-between text-center">
+    {% for item in site.social %}
+      <a class=" hover:text-fairpink-300 italic text-2xl font-serif no-underline hover:underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
+    {% endfor %}
+  
+ </div>
+   
+  <div class="py-10 pb-10">
+ <div class="bg-cornflowerlilac-300  w-100 h-px"></div>
+</div>
+
+<div class="grid sm:grid-cols-3 justify-center tracking-wide  items-center justify-between text-center">
+  <a class=" hover:text-fairpink-300 no-underline" href="/privacy">Privacy</a>
+  <a class=" hover:text-fairpink-300 no-underline" href="/imprint">Imprint</a>
+  <div class="">
   <span class="block text-center text-gray-800 text-sm font-light">
-    &copy; 2022 terezaif
+    &copy; 2025 terezaif
   </span>
 </div>
+ </div>
+ 
+
+
+
 <div class="">
   <a id="btt"
-    class="hidden rounded-full fixed bottom-0 right-0 mb-4 mr-4 text-gray-200 border border-amber-600 hover:bg-gray-200 hover:text-amber-600 hover:border-browngray no-underline px-6 py-1 bg-amber-600 shadow-md"
+    class="hidden rounded-full fixed bottom-0 right-0 mb-4 mr-4 text-gray-100 bg-deepteal-950 border border-deepteal-950 hover:bg-gray-200 hover:text-amber-600 hover:border-browngray no-underline px-6 py-1 shadow-md"
     href="#top" title="Back to Top">UP</a>
 </div>
 <div class="fixed bottom-0 left-0 m-6">
@@ -51,7 +39,9 @@
 <template id="followTip">
   {% for item in site.social %}
     <a href="{{ item.url }}"
-      class="inline-block rounded-fulltext-gray-200 text-sm bg-amber-600 shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1"
+      class="inline-block rounded-full  text-sm text-gray-100 bg-deepteal-950 shadow-md hover:bg-fairpink-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1"
       target="_blank" rel="noopener">{{ item.title }}</a>
   {% endfor %}
 </template>
+
+</footer>
