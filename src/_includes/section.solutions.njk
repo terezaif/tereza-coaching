@@ -13,12 +13,12 @@
           {{ item.data.afterHightlight }}
           </div>
       </div>
-      <div class="grid sm:grid-rows-3 sm:grid-flow-col justify-center text-center gap-8">
+      <div class="grid sm:grid-cols-2  justify-center text-center gap-8">
         
-              <img src="/img/solutions/flower.png" alt="Grow like a flower" class=" sm:row-span-3 allign-middle pr-4">
-
+              
         {% for item in solutions %}
         
+          <img src="/img/solutions/{{ item.icon }}" alt="Grow like a flower" class=" allign-middle ">
           <div class="justify-center bg-bilobaflower-400  rounded-[100px]">
             <div class=" self-center  px-12 py-6 self-center" >
               <h3 class="tracking-wide font-medium text-2xl pb-4"><span class="font-bold bg-fairpink-200/50 p-1 font-serif italic">{{ item.title }}</span> {{ item.teaser }}</h3>
