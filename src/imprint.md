@@ -9,6 +9,6 @@ Hamburg, Germany
 
 Github: <a href="https://github.com/terezaif" rel="noopener" target="_blank">github.com/terezaif</a>
 
-Illustrations: <a href="https://icons8.com" rel="noopener" target="_blank">icons8</a>
+Illustrations: Tereza Iofciu
 
 Icons: <a href="https://thenounproject.com" rel="noopener" target="_blank">thenounproject</a>
