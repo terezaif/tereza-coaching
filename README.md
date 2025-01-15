@@ -12,6 +12,7 @@ A simple landing page built with 11ty and Tailwind CSS.
 - Checking site response time with [https://pagespeed.web.dev/](https://pagespeed.web.dev/)
 - Check if site is green hosted and report [https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3](https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3)
 - All about favicons [https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+- More on site sustainability [https://sustainablewebdesign.org/is-the-content-easy-to-find/](https://sustainablewebdesign.org/is-the-content-easy-to-find/)
 
 
 ## How to use this template

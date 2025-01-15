@@ -1,18 +1,22 @@
 {
   "baseURL": "https://terezaiofciu.com",
   "author": "Tereza Iofciu",
-  "description": "Inclusive leadership coaching and data career coaching",
-  "title": "Tereza Coaching",
+  "description": "I help data experts position themselves as key players and gain more influence in their workplace. Work with me and stop TRYING to get your voice heard! Learn how to become the go-to person in your field.",
+  "title": "Grow your influence as a data expert!",
   "language": "en",
-  "image":"https://www.terezaiofciu.com/img/twitter_card.webp",
+  "image":"https://www.terezaiofciu.com/img/smcard_1200_630.webp",
   "social": [
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/@terezaif"
+      "title": "Bluesky",
+      "url": "https://bsky.app/profile/terezaif.bsky.social"
     },
     {
       "title": "LinkedIn",
       "url": "https://www.linkedin.com/in/tereza-iofciu/"
+    },
+    {
+      "title": "Substack",
+      "url": "https://terezaiofciu.substack.com/"
     }
   ]
 }

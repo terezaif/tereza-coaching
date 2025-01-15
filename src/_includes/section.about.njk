@@ -1,16 +1,24 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'about' %}
-    <div id="about" class="flex flex-col items-center w-full min-h-screen py-12 justify-left">
-      <div class="self-center w-full px-4 sm:w-2/3 xl:w-1/2 sm:px:0">
-        <h2 class="mb-4 text-4xl font-bold tracking-wider text-center text-gray-800">{{ item.data.title }}</h2>
-        <div class="text-xl font-light text-center text-black">
+    <div id="about" class=" w-full py-24 rounded-b-[200px]  min-h-screen bg-outrageousorange-400 ">
+        
+      <div class="items-center pb-16 px-8" >
+        <h2 class="justify-center text-4xl font-serif font-bold tracking-wider text-center text-fairpink-100 pb-16">{{ item.data.title }}</h2>
+    
+        
+        <div class="text-2xl font-medium text-cornflowerlilac-100 text-center">
           {{ item.templateContent | safe }}
         </div>
-        <img class="max-w-full mx-auto my-12" src="/img/ti_square.webp" alt="Picture of Tereza">
       </div>
-      <div class="flex flex-row justify-center w-full">
-        <a class="px-10 py-2 text-lg text-gray-200 rounded-full shadow-md bg-amber-600 hover:bg-gray-800 hover:border-red" href="#features">More about Coaching</a>
+
+      <div class="pb-24">
+        <img class="max-w-full mx-auto  rounded-[200px] border-cornflowerlilac-300 border-8" src="/img/TerezaIofciu_2025_811x1000.webp" width="811" height="1000"  alt="Photo of Tereza Iofciu in Altona in front of the Port and with street art">
+      </div>
+
+      <div class="grid justify-center w-full pb-24">
+        <a class="px-10 py-2 text-gray-100 bg-eden-900 rounded-full shadow-md text-lg hover:bg-fairpink-900 hover:border-red" href="#solutions">I want to know HOW</a>
       </div>
     </div>
+    
   {% endif %}
 {% endfor %}
