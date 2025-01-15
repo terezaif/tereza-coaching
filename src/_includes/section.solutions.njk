@@ -1,40 +1,38 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'solutions' %}
-    <div id="solutions" class="px-6 py-24 pb-24 min-w-screen    min-h-screen w-full bg-cornflowerlilac-300">
-      <div class="container  mx-auto justify-between   items-center justify-center justify-between ">
-      <div class="justify-center  ">
-        <div class="m-6 justify-center text-xl font-medium tracking-wide text-center text-black-900 pb-12">{{ item.data.title }}</div>
-        <div class="mb-6 text-3xl font-bold text-center text-eden-800 pb-12">
-          {{ item.templateContent | safe }}
-        </div>
-        <div class="m-10 text-xl font-medium tracking-wide text-center text-black pb-10">
-          {{ item.data.afterText }}
-          <span class="font-serif bg-brightsun-600/80 p-1 font-bold italic">{{ item.data.afterTextHightlight }}</span>
-          {{ item.data.afterHightlight }}
+    <div id="solutions" class="bg-cornflowerlilac-300">
+      <div class="container  mx-auto justify-between   items-center justify-center justify-between px-8 py-24 pb-24 ">
+        <div class="justify-center ">
+          <div class="justify-center text-xl font-medium tracking-wide text-center text-black-900 pb-16">{{ item.data.title }}</div>
+          <div class="text-3xl font-bold text-center text-eden-800 pb-16">
+            {{ item.templateContent | safe }}
           </div>
-      </div>
-      <div class="grid sm:grid-cols-2  justify-center text-center gap-8">
-        
-              
-        {% for item in solutions %}
-        
-          <img src="/img/solutions/{{ item.icon }}" alt="Grow like a flower" class=" allign-middle ">
-          <div class="justify-center bg-bilobaflower-400  rounded-[100px]">
-            <div class=" self-center  px-12 py-6 self-center" >
-              <h3 class="tracking-wide font-medium text-2xl pb-4"><span class="font-bold bg-fairpink-200/50 p-1 font-serif italic">{{ item.title }}</span> {{ item.teaser }}</h3>
-              <div class="text-xl font-medium">
-                {{ item.content | markdown | safe }}
-              </div>
+          <div class="m-4 text-xl font-medium tracking-wide text-center text-black pb-16">
+            {{ item.data.afterText }}
+            <span class="font-serif bg-brightsun-600/80 p-1 font-bold italic">{{ item.data.afterTextHightlight }}</span>
+            {{ item.data.afterHightlight }}
             </div>
-           
-          </div>
-        {% endfor %}
-      </div>
+        </div>
+        <div class="grid md:grid-cols-2  justify-center text-center gap-8">
       
-      <div class="grid justify-center pt-6">
-        <a class="m-20 px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-gray-900 hover:bg-white hover:text-gray-900" href="#ourfirstcall">I need this!</a>
+          {% for item in solutions %}
+          
+            <img src="/img/solutions/{{ item.icon }}" alt="Abstract solutions" class="justify-center allign-middle">
+            <div class="justify-center bg-bilobaflower-400  rounded-[100px]">
+              <div class="self-center  px-16 py-8 self-center" >
+                <h3 class="tracking-wide font-medium text-2xl pb-8"><span class="font-bold bg-fairpink-200/50 p-1 font-serif italic">{{ item.title }}</span> {{ item.teaser }}</h3>
+                <div class="text-xl font-medium">
+                  {{ item.content | markdown | safe }}
+                </div>
+              </div>
+            
+            </div>
+          {% endfor %}
+        </div>
       </div>
-      </div>
+      <div class="grid grid-rows-1 justify-center pb-24">
+          <a class="px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-deepteal-950 hover:bg-white hover:text-gray-900" href="#ourfirstcall">I need this!</a>
+       </div>
     </div>
   {% endif %}
 {% endfor %}

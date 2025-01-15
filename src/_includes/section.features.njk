@@ -1,38 +1,34 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'features' %}
-    <div id="features" class="px-6 py-24 pb-24  min-w-screen    min-h-screen w-full bg-eden-800 rounded-t-[200px]">
-      <div class="container  mx-auto   items-center justify-center justify-between">
-      <div class="self-center  px-4  sm:px:0">
-        <div class="m-6 mb-12 text-xl font-medium tracking-wide text-center text-white pb-12">{{ item.data.title }}</div>
-        <div class="mb-6 text-3xl font-bold text-center text-cornflowerlilac-300 pb-12">
-          {{ item.templateContent | safe }}
-        </div>
-        <div class="m-10 text-xl font-medium tracking-wide text-center text-white pb-12">{{ item.data.afterText }}</div>
-      </div>
-      <div class="grid grid-flow-row auto-rows-max sm:grid-cols-3  self-center text-center gap-8 pb-24">
-        {% for item in features %}
-        
-          <div class="  bg-brightsun-600  rounded-[100px] ">
-      
-           
-              <div class="text-2xl font-bold text-black-800 py-16 px-10 self-center">
-                {{ item.content | markdown | safe }}
-              </div>
-        
+    <div id="features" class=" min-w-screen min-h-screen w-full bg-eden-800 rounded-t-[200px]">
+      <div class="container  mx-auto   items-center justify-center justify-between px-8 py-24 pb-24 ">
+        <div class="self-center  ">
+          <div class="text-xl font-medium tracking-wide text-center text-white pb-16">{{ item.data.title }}</div>
+          <div class="text-3xl md:tracking-wider font-bold text-center text-cornflowerlilac-300 pb-16">
+            {{ item.templateContent | safe }}
           </div>
-        {% endfor %}
-      </div>
+          <div class="text-xl font-medium tracking-wide text-center text-white pb-16">{{ item.data.afterText }}</div>
+        </div>
+        <div class="grid grid-flow-row auto-rows-max md:grid-cols-3  self-center text-center gap-8 pb-16">
+          {% for item in features %}
+            <div class="  bg-brightsun-600  rounded-[100px] ">
+              <div class="py-16 px-8 text-2xl font-bold text-black-800 self-center">
+                    {{ item.content | markdown | safe }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="grid justify-center">
+          <img src="/img/features/SPIRAL.png" alt="Spiraling" class=" allign-middle px-8 ">
 
-      <div class="grid justify-center pt-6">
-      <img src="/img/features/SPIRAL.png" alt="Spiraling" class=" allign-middle pr-4 ">
+        </div>
+      </div>
+      <div class="grid  grid-rows-1 justify-center pb-24">
+          <a class="px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-gray-900 hover:bg-white hover:text-gray-900" href="#solutions">This is me! Tell me more!</a>
+        </div>
+    
 
-      </div>
-      <div class="grid justify-center pt-6">
-        <a class="m-20 px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-gray-900 hover:bg-white hover:text-gray-900" href="#solutions">
-This is me! Tell me more!
-</a>
-      </div>
-    </div>
+    
     </div>
   {% endif %}
 {% endfor %}

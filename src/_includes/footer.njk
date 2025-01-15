@@ -1,13 +1,13 @@
-<footer class=" w-full mx-auto p-16 rounded-t-[200px] bg-outrageousorange-400">
+<footer class=" w-full mx-auto p-24 rounded-t-[200px] bg-outrageousorange-400">
 
-<div class="grid sm:grid-cols-3 justify-center tracking-wide  items-center  text-center">
+<div class="grid sm:grid-cols-3 justify-center tracking-wide  items-center  text-center pb-16">
     {% for item in site.social %}
-      <a class=" hover:text-fairpink-300 italic text-2xl font-serif no-underline hover:underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
+      <a class=" hover:text-fairpink-300 italic text-2xl font-serif underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
     {% endfor %}
   
  </div>
    
-  <div class="py-10 pb-10">
+  <div class="pb-16">
  <div class="bg-cornflowerlilac-300  w-100 h-px"></div>
 </div>
 
@@ -26,12 +26,13 @@
 
 <div class="">
   <a id="btt"
-    class="hidden rounded-full fixed bottom-0 right-0 mb-4 mr-4 text-gray-100 bg-deepteal-950 border border-deepteal-950 hover:bg-gray-200 hover:text-amber-600 hover:border-browngray no-underline px-6 py-1 shadow-md"
+    class="hidden rounded-full fixed bottom-0 right-0 mb-8 mr-8 bg-deepteal-950 no-underline px-6 py-1 shadow-md
+    text-cornflowerlilac-300 hover:bg-white hover:text-gray-900"
     href="#top" title="Back to Top">UP</a>
 </div>
-<div class="fixed bottom-0 left-0 m-6">
+<div class="fixed bottom-0 left-0 m-8">
   <a href="https://ecograder.com/report/oj0ARJZa4zczobd8yhtAAzY3" target="_blank" rel="noopener" title="This page emits an estimated 0.067g CO2 every time someone views it."
-    class="block rounded-full bg-white text-purple-600 hover:bg-gray-200 hover:text-black shadow-md p-4">
+    class="block rounded-full bg-white text-purple-600 hover:bg-brightsun-300 hover:text-black shadow-md p-4">
     <img src="/img/noun-co2-3810679-134E4A.svg" width="30" height="30" class="block" alt="Carbon footprint icon">
   </a> 
 </div>
