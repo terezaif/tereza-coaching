@@ -3,15 +3,15 @@
     <div id="features" class=" min-w-screen min-h-screen w-full bg-eden-800 rounded-t-[200px]">
       <div class="container  mx-auto   items-center justify-center justify-between px-8 py-24 pb-24 ">
         <div class="self-center  ">
-          <div class="text-xl font-medium tracking-wide text-center text-white pb-16">{{ item.data.title }}</div>
+          <div class="text-2xl font-serif font-medium tracking-wide text-center text-white pb-16">{{ item.data.title }}</div>
           <div class="text-3xl md:tracking-wider font-bold text-center text-cornflowerlilac-300 pb-16">
             {{ item.templateContent | safe }}
           </div>
-          <div class="text-xl font-medium tracking-wide text-center text-white pb-16">{{ item.data.afterText }}</div>
+          <div class="text-2xl font-serif font-medium tracking-wide text-center text-white pb-16">{{ item.data.afterText }}</div>
         </div>
         <div class="grid grid-flow-row auto-rows-max md:grid-cols-3  self-center text-center gap-8 pb-16">
           {% for item in features %}
-            <div class="  bg-brightsun-600  rounded-[100px] ">
+            <div class="bg-brightsun-600  rounded-[100px] ">
               <div class="py-16 px-8 text-2xl font-bold text-black-800 self-center">
                     {{ item.content | markdown | safe }}
               </div>
@@ -19,7 +19,7 @@
           {% endfor %}
         </div>
         <div class="grid justify-center">
-          <img src="/img/features/SPIRAL.png" alt="Spiraling" class=" allign-middle px-8 ">
+          <img src="/img/features/SPIRAL.webp" alt="Spiraling" class=" allign-middle px-8 ">
 
         </div>
       </div>

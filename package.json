@@ -1,7 +1,7 @@
 {
   "name": "11ty-landing-page",
   "version": "0.0.1",
-  "description": "A simple landing page built with 11ty and Tailwind CSS",
+  "description":"Tereza's landing page",
   "scripts": {
     "clean": "del public",
     "serve": "eleventy --serve",

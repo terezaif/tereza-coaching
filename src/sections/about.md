@@ -17,5 +17,3 @@ I’ve worked with companies like XING and Free Now, building data products and 
 
 If you’re ready to grow your influence and take the next step in your career, I’m here to help.
 
-
-
