@@ -2,7 +2,7 @@
 title: The solution
 afterTitle: ...
 afterText: Through my program 
-afterTextHightlight: Unblock Your Value & Thrive
+afterTextHightlight: Accelerated Influence
 afterHightlight: I help you
 
 type: solutions
