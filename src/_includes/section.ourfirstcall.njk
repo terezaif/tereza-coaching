@@ -1,21 +1,20 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'ourfirstcall' %}
   <div id="ourfirstcall" class="container mx-auto  self-center items-center  justify-center py-24 ">
-    <div class="text-center  px-8">
-     <h2 class="text-4xl font-serif font-bold tracking-widest text-center text-eden-900 pb-16">{{ item.data.title }}</h2>
-      <div class="text-2xl font-medium  text-eden-900 pb-16">
+    <div class="text-center px-8">
+     <h2 class="text-2xl font-serif font-bold tracking-widest text-center text-eden-900 pb-8 sm:pb-16">{{ item.data.title }}</h2>
+      <div class="sm:text-xl tracking-tight text-eden-900 pb-8 sm:pb-16">
           {{ item.templateContent | safe }}
         </div>
     </div>
-    <div class="grid justify-center">
+    <div class="grid justify-center pb-8">
       <img src="/img/planets869x631.webp" width="869" height="631" alt="first contact, two people on a planet">
     </div>
-  </div>
-  <div class="grid grid-rows-1 justify-center pb-24">
-  <a class="px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-gray-900 hover:bg-white hover:text-gray-900"
+  
+  <div class="grid grid-rows-1 justify-center pb-8 sm:pb-24">
+    <a class="px-10 py-2 text-lg text-cornflowerlilac-300 rounded-full shadow-md bg-gray-900 hover:bg-white hover:text-gray-900"
     href="https://calendly.com/terezaif/tereza-coaching">Book a call</a>
-    </div>
-
-</div>
+  </div>
+  </div>
   {% endif %}
 {% endfor %}
