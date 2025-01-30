@@ -2,20 +2,20 @@
   {% if item.data.type === 'about' %}
     <div id="about" class=" w-full py-24 rounded-b-[200px]  min-h-screen bg-outrageousorange-400 ">
         
-      <div class="items-center pb-16 px-8" >
-        <h2 class="justify-center text-2xl font-serif font-bold tracking-wider text-center text-fairpink-100 pb-16">{{ item.data.title }}</h2>
+      <div class="items-center pb-8 sm:pb-16 px-8" >
+        <h2 class="justify-center text-2xl font-serif font-bold tracking-wider text-center text-fairpink-100 pb-8 sm:pb-16">{{ item.data.title }}</h2>
     
         
-        <div class="text-xl text-cornflowerlilac-100 text-center">
+        <div class="sm:text-xl text-cornflowerlilac-100 text-center">
           {{ item.templateContent | safe }}
         </div>
       </div>
 
-      <div class="pb-24">
+      <div class="pb-8 sm:pb-24">
         <img class="max-w-full mx-auto  rounded-[200px] border-cornflowerlilac-300 border-8" src="/img/TerezaIofciu_2025_811x1000.webp" width="811" height="1000"  alt="Photo of Tereza Iofciu in Altona in front of the Port and with street art">
       </div>
 
-      <div class="grid justify-center w-full pb-24">
+      <div class="grid justify-center w-full pb-8 sm:pb-24">
         <a class="px-10 py-2 text-gray-100 bg-eden-900 rounded-full shadow-md text-lg hover:bg-fairpink-900 hover:border-red" href="#solutions">I want to know HOW</a>
       </div>
     </div>

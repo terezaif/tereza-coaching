@@ -11,7 +11,7 @@ I’ve spent almost two decades in data – starting in hands-on roles and event
 
 <br>
 
-I’ve worked with companies like XING and Free Now, building data products and growing data talent. Now, I help people in data step into leadership roles with clarity and confidence, so they can make a real impact without feeling stuck or overlooked. 
+I’ve worked with companies like XING, Free Now and neuefische, building data products and growing data talent. Now, I help people in data step into leadership roles with clarity and confidence, so they can make a real impact without feeling stuck or overlooked. 
 
 <br>
 
